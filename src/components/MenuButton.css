@@ -1,0 +1,40 @@
+.sidebar-menu {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+
+  z-index: 2;
+  width: 100%;
+  height: 60px;
+}
+
+.open_menu_icon {
+  width: 40px;
+  height: 40px;
+  transition: width 0.3s ease-in-out left 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
+}
+.close_menu_icon {
+  width: 40px;
+  height: 40px;
+}
+
+.menu-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.menu-item div {
+  width: 30%;
+}
+
+.menu-item h2 {
+  margin: 0 0 0 12px;
+  padding: 0 0;
+  flex: 1;
+  text-align: start;
+}
